@@ -1,0 +1,15 @@
+the smallest number of lines/tellers pairs is: 3
+we could get that result by two ways:
+1- to run the simulation and try different pairs number till we obtain average below 10
+2- by calculations as following:
+the percentage that a new customer arrives at each tick is 60% that means after the 100 ticks we will have
+around 60 customers. The maximum serving time is 15 which means that on average each customer will take around
+7.5 ticks to be served. So, if we have only one line in the first tick it will take 7.5 ticks to serve him.
+During those ticks we would have around 4 to 5 new customers.
+* if they were in one line: the first will take 7.5 ticks to be served, the second 15, and so on till the the fifth
+will take around 37.5 ticks... which average to around 22.5 ticks
+* if they were in two lines: the 5 new customers will be divided into 2 and 3; (decreasing the nomenator)
+the first customer of both lines will take around 7.5 ticks and the second 15 and the third 22.5 ticks
+which averages to 15 ticks in the longest line.
+* if they were in 3 lines: there will be two lines having 2 customers and 1 having 1; waiting ticks as 7.5 for the first
+15 for the second customer in each line... which averages between 7.5 and 11.25 ticks and around 8 to 9 ticks for any new customer

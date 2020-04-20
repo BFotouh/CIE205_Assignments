@@ -116,7 +116,6 @@ string toInFix(string exp)
 			S.pop(s2);
 			S.push("(" + s2 + exp[i] + s1 + ")");
 		}
-
 	}
 	while (!S.isEmpty())
 	{
